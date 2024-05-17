@@ -175,5 +175,8 @@ BEGIN
 END//
 DELIMITER ;
 
+--xoa san pham co ten la Dieu Hoa
+CALL delProduct('Dieu Hoa');
+
 
 
